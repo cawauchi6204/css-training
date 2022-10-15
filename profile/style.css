@@ -1,0 +1,117 @@
+/* header */
+header {
+  margin-bottom: 0;
+  margin: 8px 0 8px 0;
+}
+
+.header-profile-button {
+	padding: 4px 20px;
+	font-size: 22px;
+
+	background-color: #393e46;
+	cursor: pointer;
+	color: white;
+	font-weight: bold;
+}
+
+.header-nav-list {
+	display: flex;
+	gap: 30px;
+  font-size: 14px;
+}
+
+/* hero */
+.hero-image {
+	width: 100%;
+	max-width: 1920px;
+	height: 600px;
+	-o-object-fit: cover;
+	object-fit: cover;
+}
+
+.hero-section {
+  margin-bottom: 80px;
+}
+
+/* about */
+.about-image {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	margin-right: 30px;
+}
+
+/* bicycle */
+.card {
+  width: 32%;
+  height: auto;
+}
+
+.card img {
+  width: 100%;
+}
+
+/* グローバル */
+
+li {
+	list-style-type: none;
+}
+
+body {
+	margin: 0;
+}
+
+/* ユーティリティー */
+.flex {
+	display: flex;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.inner-wrapper {
+	margin: 0 auto;
+  padding: 0 55px;
+  max-width: 848px;
+}
+
+.section-wrapper {
+  margin: 0 auto 100px auto;
+}
+
+.text-black {
+  color: black;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-bottom-border {
+  border-bottom: solid 1px #383e45;
+}
+
+.text-2rem {
+  font-size: 2rem;
+}
+
+.decoration-none {
+  text-decoration: none;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.font-bold {
+  font-weight: bold;
+}
